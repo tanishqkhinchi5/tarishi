@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Blog</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>My Awesome Blog</h1>
+        <nav>
+            <a href="#home">Home</a>
+            <a href="#about">About</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+    <main>
+        <article>
+            <h2>Sample Blog Post Title</h2>
+            <p class="date">Published on October 10, 2023</p>
+            <p>This is the content of your first blog post. You can add images, links, and more here.</p>
+            <img src="https://via.placeholder.com/600x300" alt="Placeholder image">
+        </article>
+        <!-- Add more <article> tags for additional posts -->
+    </main>
+    <footer>
+        <p>&copy; 2023 My Blog. All rights reserved.</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+}
+
+header {
+    background: #333;
+    color: #fff;
+    padding: 1rem;
+    text-align: center;
+}
+
+nav a {
+    color: #fff;
+    margin: 0 1rem;
+    text-decoration: none;
+}
+
+main {
+    max-width: 800px;
+    margin: 2rem auto;
+    padding: 1rem;
+    background: #fff;
+    border-radius: 5px;
+}
+
+article {
+    margin-bottom: 2rem;
+}
+
+.date {
+    color: #888;
+    font-size: 0.9em;
+}
+
+footer {
+    text-align: center;
+    padding: 1rem;
+    background: #333;
+    color: #fff;
+}
+// Simple example: Alert on page load
+window.onload = function() {
+    console.log("Blog loaded!");
+    // You can add more JS for features like dynamic posts or comments
+};
